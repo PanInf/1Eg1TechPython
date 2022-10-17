@@ -52,3 +52,26 @@
 #     x = int(input())
 #     suma = suma - x
 # print(suma)
+
+#Zad 6
+
+# n = 8
+# a = 1
+# b = 2
+# print(a, b, end=" ")
+# for i in range(n-2):
+#     a, b = b, a+b
+#     print(b, end=" ")
+
+# UPGRADE
+# 7 - silnia iteracyjnie
+# 5! = 1*2*3*4*5 = 120
+# n = int(input())
+# silnia = 1
+# for i in range(1,n+1):
+#     silnia = silnia * i
+# print(silnia)
+
+
+
+
