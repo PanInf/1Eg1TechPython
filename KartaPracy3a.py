@@ -70,12 +70,57 @@
 # print("Bartosz" * 5)
 # print("*"*3)
 
-n = int(input())
-for i in range(1,n+1):
-    print("*"*i, end="")
-    if i % 2:
-        print("||", end="")
-    else:
-        print("--", end="")
-print()
+# n = int(input())
+# for i in range(1,n+1):
+#     print("*"*i, end="")
+#     if i % 2:
+#         print("||", end="")
+#     else:
+#         print("--", end="")
+# print()
 
+# Zad 3
+
+# n = int(input())
+# for i in range(1,n+1):
+#     print("*", end="")
+#     if i % 2 == 1:
+#         print("|"*i, end="")
+#     else:
+#         print("-"*i, end="")
+
+# PRE 
+# n = int(input())
+
+# for i in range(n):
+#     for j in range(n):
+#         print("*", end="")
+#     print()
+
+# Zad 5
+
+
+n = int(input())
+
+
+for i in range(1, n+1):
+    for j in range(1, n+1):
+        if j == n//2 + 1:
+            print("*", end="")
+        elif i == n//2 + 1:
+            print("-", end="")
+        else:
+            print(" ", end="")
+    print()
+
+# Zad 7
+
+# n = int(input())
+
+# for i in range(1, n+1):
+#     for j in range(1, n+1):
+#         if i == 1 or j == 1 or i == n or j == n or (i == n//2 + 1 and j == n//2 + 1):
+#             print("*", end="")
+#         else: 
+#             print(" ", end="")
+#     print()
