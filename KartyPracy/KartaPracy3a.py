@@ -97,6 +97,19 @@
 #         print("*", end="")
 #     print()
 
+# Zad 4
+
+n = 11
+for i in range(n):
+    for j in range(n):
+        if i-j==n//2 or j-i==n//2 or i+j==n//2 or i+j==3*(n//2):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+
+
 # Zad 5
 
 # n = int(input())
@@ -125,14 +138,14 @@
 # (4, 1) (4, 2) (4, 3) (4, 4) (4, 5)
 # (5, 1) (5, 2) (5, 3) (5, 4) (5, 5)
 
-n = int(input())
-for i in range(n):
-    for j in range(n):
-        if i + j == 6:
-            print("*", end="")
-        else:
-            print("-", end="")
-    print()
+# n = int(input())
+# for i in range(n):
+#     for j in range(n):
+#         if i + j == 6:
+#             print("*", end="")
+#         else:
+#             print("-", end="")
+#     print()
 
 
 # Zad 7
