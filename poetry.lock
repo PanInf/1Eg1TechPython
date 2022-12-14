@@ -1,0 +1,15 @@
+[[package]]
+name = "nlptoolkit-math"
+version = "1.0.17"
+description = "Math library"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "7c58596ff7289b66f6f7f66a089a64fa553a5ee3fb73539102d8b92693a0ec61"
+
+[metadata.files]
+nlptoolkit-math = []

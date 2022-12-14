@@ -43,14 +43,14 @@
 
 # Zad 6
 
-a = int(input())
-b = int(input())
+# a = int(input())
+# b = int(input())
 
-x, y = a, b
-while y > 0:
-    x, y = y, x % y
+# x, y = a, b
+# while y > 0:
+#     x, y = y, x % y
 
-c = a // x
-d = b // x
+# c = a // x
+# d = b // x
 
-print(f"{a}/{b} = {c}/{d}")
+# print(f"{a}/{b} = {c}/{d}")
