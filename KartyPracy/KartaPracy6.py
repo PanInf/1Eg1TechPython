@@ -61,10 +61,40 @@
 
 # zad 8
 
-n = int(input())
-suma  = 0
-czynnik = -1
-for i in range(n):
-    czynnik = czynnik * (-1)
-    suma = suma + (3*i+2) * czynnik
-print(suma)
+# n = int(input())
+# suma  = 0
+# czynnik = -1
+# for i in range(n):
+#     czynnik = czynnik * (-1)
+#     suma = suma + (3*i+2) * czynnik
+# print(suma)
+
+# Zad 11
+
+# n = int(input())
+
+# suma = 0
+# for i in range(1,n+1):
+#     suma = suma + (2*i-1)/(i**2)
+# print(suma)
+
+# n = int(input())
+# liczniki = 0
+# mianownik = 1
+# for i in range(1, n+1):
+#     mianownik = mianownik * i**2
+
+# for i in range(1, i+1):
+#     liczniki = liczniki + (2*i-1) * mianownik // (i**2)
+# print(f"Wynik: {liczniki} / {mianownik}")
+
+# Zad 13
+
+# n = int(input())
+
+# suma = 0
+# for i in range(1,n+1):
+#     suma = suma + (2*i)/(i**3 + 2)
+# print(suma)
+
+
