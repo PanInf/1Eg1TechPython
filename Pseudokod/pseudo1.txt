@@ -1,0 +1,33 @@
+--EUKLIDES ODEJMOWANIE
+
+a = int(input())
+b = int(input())
+while a != b:
+    if a > b: a = a - b
+    if b > a: b = b - a
+print(a)
+
+--PSEUDOKOD
+
+dopóki a =/ b wykonuj  (=/ oznacza różne jak w zeszycie)
+    jeżeli a > b
+        a = a - b
+    jeżeli b > a
+        b = b - a
+wypisz a
+
+--EUKLIDES MODULO
+
+a = int(input())
+b = int(input())
+while b > 0:
+    a, b = b, a % b
+print(a)
+
+---PSEUDOKOD
+
+dopóki b > 0 wykonuj
+    temp = a
+    a = b
+    b = temp mod b
+wypisz a
