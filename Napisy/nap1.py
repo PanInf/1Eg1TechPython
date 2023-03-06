@@ -30,12 +30,20 @@
 
 # sprawdz czy dane słowo jest palindromem
 
-s = input()
-L = list(s)
-R = list(s)  # R = L.copy()
-R.reverse()
-if L == R:
-    print("TAK")
-else:
-    print("NIE")
+# s = input()
+# L = list(s)
+# R = list(s)  # R = L.copy()
+# R.reverse()
+# if L == R:
+#     print("TAK")
+# else:
+#     print("NIE")
     
+# palindrom za pomocą tablicy
+
+s = input()
+
+for i in range(len(s)//2):
+    if s[i] != s[len(s)-1-i]:
+        exit("NIE")
+exit("TAK")
